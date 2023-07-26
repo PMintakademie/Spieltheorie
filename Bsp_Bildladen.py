@@ -23,7 +23,7 @@ class simpleapp_tk(tkinter.Tk):
         self.button1.place(x=65, y=160, width=70, height=40)
         
         #Label erstellen mit festem Platz als xy-Koordinate und fester Höhe und Breite
-        Bild = tkinter.PhotoImage(file = "w1.gif")
+        Bild = tkinter.PhotoImage(file = "14.png")
         self.labelEins = tkinter.Label(self,image = Bild)
         self.labelEins.place(x=85, y=75, width=30, height=30)
 
@@ -34,7 +34,7 @@ class simpleapp_tk(tkinter.Tk):
     def OnButtonEinsClick(self):
         global Bild
 
-        Bild = tkinter.PhotoImage(file = "w2.gif")
+        Bild = tkinter.PhotoImage(file = "14.png")
         self.labelEins.configure(image = Bild)
 
 
